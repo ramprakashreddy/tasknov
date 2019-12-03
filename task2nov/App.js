@@ -41,7 +41,7 @@ class Animated_Item extends Component {
       this.animatedValue,
       {
         toValue: 0.5,
-        duration: 400,
+        duration: 450,
         useNativeDriver: true
       }
     ).start(() => {
@@ -55,7 +55,7 @@ class Animated_Item extends Component {
       this.animatedValue,
       {
         toValue: 1,
-        duration: 400,
+        duration: 450,
         useNativeDriver: true
       }
     ).start(() => {
